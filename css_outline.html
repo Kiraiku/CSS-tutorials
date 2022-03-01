@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Outline</title>
+    <style>
+
+    #one {
+            border: 2px solid #000;
+            outline: 10px solid #4CAF;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .dotted {
+        outline-style:dotted;
+    }
+
+    .dashed {
+        outline-style: dashed;
+    }
+
+    .solid {
+        outline-style: solid;
+    }
+
+    .double {
+        outline-style: double;
+    }
+
+    .groove {
+        outline-style: groove;
+    }
+
+    .ridge {
+        outline-style: ridge;
+    }
+
+    .inset {
+        outline-style: inset;
+    }
+
+    .outset {
+        outline-style: outset;
+    }
+
+    .ex1 {
+        border: 1px solid #000;
+        outline-style: solid;
+        outline-color: #ff0000;
+        outline-width: thin;
+    }
+
+    .ex2 {
+        border: 1px solid #000;
+        outline-style: solid;
+        outline-color: #ff0000;
+        outline-width: medium;
+    }
+
+    .ex3 {
+        border: 1px solid #000;
+        outline-style: solid;
+        outline-color: #ff0000;
+        outline-width: thick;
+    }
+
+    .ex4 {
+        border: 1px solid #000;
+        outline-style: solid;
+        outline-color: #ff0000;
+        outline-width: 4px;
+    }
+
+    .ex5 {
+        margin: 30px;
+        background: yellow;
+        border: 1px solid #000;
+        outline: 1px solid #ff0000;
+        outline-offset: 15px;
+    }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>CSS Outline</h1>
+    <p id="one">This element has a 2px black border and a <del>green</del> outline with a 
+        width of 10px.
+    </p>
+
+  
+<!-- CSS Outline Style -->
+    
+<h2>The outline-style Property.</h2>
+
+<p class="dotted">A dotted outline</p>
+<p class="dashed">A dashed outline</p>
+<p class="solid">A solid outline</p>
+<p class="double"> A double outline</p>
+<p class="groove">A groove outline. The effect depends on the outline color value.</p>
+<p>A rodge outline. The effect depends on the outline color value.</p>
+<p class="inset">An inset outline. The effect depends on the outline color value</p>
+<p class="outset">An outset outline. The effect depends on the outline color value</p>
+
+<h3>The outline width Property</h3>
+
+<p class="ex1">A thin outline</p>
+<p class="ex2">A medium outline</p>
+<p class="ex3">A thick outline</p>
+<p class="ex4">A 4px thick outline</p>
+
+<!-- CSS Outline Offset -->
+
+<h4>The outline-offset property</h4>
+
+<p class="ex5">This paragraph has an outline of 15px outside the border edge.</p>
+
+</body>
+</html>

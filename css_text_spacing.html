@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text Spacing</title>
+    <style>
+        #one {
+            text-indent: 50px;
+        }
+
+        h2 {
+            letter-spacing: 5px;
+        }
+
+        h3 {
+            letter-spacing: -2px;
+        }
+
+        .small {
+            line-height: 0.7;
+        }
+
+        .big    {
+            line-height: 1.8;
+        }
+
+        .ones {
+            word-spacing: 10px;
+        }
+
+        .two {
+            word-spacing: -2px;
+        }
+
+        div {
+            white-space: nowrap;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Using text-indent</h1>
+
+    <p id="one">In my younger and more vulneable years my father gave me some advice that I've 
+        been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me,
+        'Just remembr that all people in this world haven't had the advantages that you've had.'
+    </p>
+
+    <!-- Letter Spacing -->
+
+    <h1>Using letter-spacing</h1>
+
+    <h2>This is a heading 1.</h2>
+    <h3>This is heading 2.</h3>
+
+    <!-- Line height -->
+    <p class="small">This is a paragraph with a smaller line-height <br>
+    This is a paragraph with a  smaller line-height.  <br> </p>
+    
+    <p class="big">This is a pragraph with a bigger line-height. <br>
+        This is a paragraph with a bigger line-height. <br>
+    </p>
+
+    <!-- WordSpacing  -->
+
+    <h4>Using word-spacing</h4>
+
+    <p>This is a pragraph with normal word-spacing.</p>
+
+    <p class="ones">This is a paragraph with larger word spacing.</p>
+
+    <p class="two">This is a paragraph with smaller word spacing.</p>
+
+    <!-- White-space -->
+
+    <h5 style="color: #ff0000;">USING WHITE SPACE</h5>
+
+    <div>
+        This is some text that will not wrap.
+        This is some text that will not wrap.
+        This is some text that will not wrap.
+        This is some text that will not wrap.
+        This is some text that will not wrap.
+        This is some text that will not wrap.
+        This is some text that will not wrap.
+        This is some text that will not wrap.
+        This is some text that will not wrap.
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Padding</title>
+    <style>
+        .zero {
+            padding: 75px;
+            border: 1px solid #4CAF50;
+        }
+
+        #one {
+            border: 1px solid #000000;
+            background-color: lightblue;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+
+        .ex1 {
+            width: 300px;
+            background-color: yellow;
+        }
+
+        .ex2 {
+            width: 300px;
+            padding: 25px;
+            background-color: lightblue;
+            box-sizing: border-box;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>CSSS Padding</h1>
+    <div class="zero">This element has a padding of 75px</div>
+    <hr>
+
+    <h2>Using individual padding properties</h2>
+
+    <div id="one">This element has a top padding of 50px, a right padding of 30px
+        a bottom padding of 50px and a left padding of 80px.
+    </div>
+
+    <h3>Padding and element width</h3>
+
+    <div class="ex1">This div is 300px wide.</div>
+
+    <div class="ex2">The width of this div is 350px, even though it is 
+        defined as 300px in the CSS.
+    </div>
+
+</body>
+</html>

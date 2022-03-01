@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* The CSS Universal Selector */
+
+    * {
+        background-color: #bebebe;
+    }    
+
+
+    p   {
+             text-align: center;
+             color: #ff0000;
+        }
+    #para1 {
+        text-align: left;
+        color: #bebebe;
+    }
+
+    .right  {
+        text-align: right;
+        color: #ff00f5;
+    }
+
+    .center {
+        text-align: center;
+        color: #ffff00;
+    }
+
+    p.large {
+        font-size: 300%;
+    }
+
+
+    </style>
+</head>
+<body>
+    <!-- Element Selector -->
+<p>Every paragraph will be affected by the style.</p>
+<p id="para2">Barcelona</p>
+<p>Juventus</p>
+<hr>
+
+<!-- ID Selector -->
+<p id="para1">Hello World</p>
+<p>This paragraph is not affected by the style.</p>
+<hr>
+
+<!-- The CSS class Selector -->
+<h1 class="right">Purple and right-aligned heading</h1>
+<p class="right">Purple and right-aligned heading</p>
+
+
+<!-- /* Specific HTML elements will be affected by the class */ -->
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be yellow and center-aligned.</p>
+<hr>
+
+<!-- More than one class in an element -->
+<h1 class="right">HTML elements can also refer to more than one class.</h1>
+<h2 class="right">This heading will not be affected</h2>
+<p class="right large">This paragraph wiil be blue,left-aligned and in alarge font-size</p>
+<!-- A class name cannot start with a number -->
+
+
+
+
+
+
+</body>
+</html>

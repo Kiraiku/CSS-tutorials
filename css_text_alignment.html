@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text Alignment</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h2  {
+            text-align: left;
+        }
+
+        h3  {
+            text-align: right;
+        }
+
+        div {
+            border: 1px solid #000;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+            text-align: justify;
+        }
+
+        .a {
+            text-align-last: right;
+        }
+
+        .b  {
+            text-align-last: center;
+        }
+
+        .c {
+            text-align-last: justify;
+        }
+
+
+        .ex1 {
+            direction: rtl;
+            text-transform: uppercase;
+            unicode-bidi: bidi-override;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Heading 1 (center)</h1>
+    <h2>Heading 2 (left)</h2>
+    <h3>Heading 3 (right)</h3>
+
+    <p>The three headings above are aligned center, left and right.</p>
+
+    <h4>Example text-align: justify</h4>
+
+    <p>The text-align:justify; value stretches the lines so that each line has 
+        equal width (like in newspapers and magazines)
+    </p>
+
+    <div>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,'
+         he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</div>
+
+
+         <!-- Text-align-last -->
+         <h1>The text-align-last Property</h1>
+
+         <h2>text-align-last: right:</h2>
+         <p class="a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+         
+         <h2>text-align-last: center:</h2>
+         <p class="b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+         
+         <h2>text-align-last: justify:</h2>
+         <p class="c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+         
+
+         <p>This is the default text direction</p>
+
+         <p class="ex1">This is right-to-left text direction</p>
+
+</body>
+</html>

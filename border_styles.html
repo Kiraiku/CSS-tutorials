@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Border Sides</title>
+    <style>
+        #zero {
+            text-align: left;
+            border-top-style: dotted;
+            border-right-style: solid;
+            border-bottom-style: dotted;
+            border-left-style: solid;
+        }
+
+        div {
+            border-style: dotted solid ;
+        }
+
+        p {
+            text-align: center;
+        }
+
+  
+        p.one {
+            /* Four values */
+            border-style: dotted solid double dashed;
+        }
+
+        .two {
+            /*  Three values */
+            border-style: dotted solid double;
+        }
+
+        .three {
+            /* Two values */
+            border-style: dotted solid;
+        }
+
+        .four {
+            /* One value */
+            border-style: dotted;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h2>Individual Border Sides</h2>
+    <p id="zero">2 different border styles</p>
+
+    <h2>Same as:</h2>
+    <div> 2 different border styles</div>
+
+    <!-- Individual Border Styles -->
+    <h2>Indivial Border Sides</h2>
+
+    <p class="one"> 4 different border styles.</p>
+    <p class="two"> 3 different border styles.</p>
+    <p class="three"> 2 different border styles.</p>
+    <p class="four"> 1 border style.</p>
+
+    <!-- The border-style property is used in the example above. However, it also works with border-width and border-color. -->
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Link Buttons</title>
+    <style>
+        .zero:link, .zero:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+
+        .zero:hover, .zero:active {
+            background-color: #ff0000;
+        }
+
+        .one:link {color: #ff0000;}
+        .one:visited {color: #0000ff;}
+        .one:hover {color: #ffcc00;}
+
+        .two:link {color: #ff0000; }
+        .two:visited {color: #0000ff;}
+        .two:hover {font-size: 15%;}
+
+        .three:link {color: #ff0000;}
+        .three:visited {color: #0000ff;}
+        .three:hover {background: #66ff66;}
+
+        .four:link {color: #ff0000;}
+        .four:visited {color: #0000ff;}
+        .four:hover {font-family: monospace;}
+
+        .five:link {color: #ff0000;text-decoration: none;}
+        .five:visited {color: #0000ff;text-decoration: none;}
+        .five:hover {text-decoration: underline;}
+
+    </style>
+</head>
+<body>
+    
+    <h2>Link Button</h2>
+
+    <p>A link styled as a button</p>
+    <a class="zero" href="border_styles.html" target="_blank">Border Styles</a>
+
+
+    <!-- Mouse Over Links -->
+    <h3>Styling Links</h3>
+
+    <p>Mouse over the links and watch them change layout</p>
+
+    <p> <b><a class="one" href="border_color.html" target="_blank"> This link changes color</a></b></p>
+    <p> <b><a class="two" href="css_font_style.html" target="_blank">This link changes font-size</a></b> </p>
+    <p> <b><a class="three" href="background_color.html" target="_blank">This link changes background-color.</a></b> </p>
+    <p> <b><a class="four" href="css_font_family.html" target="_blank">This link changes font-family</a></b> </p>
+    <p> <b><a class="five" href="css_text_decoration.html" target="_blank">This link changes text-decoration.</a></b></p>
+
+
+    <!-- Cursor Property Used on Links -->
+    <h4>The cursor Property</h4>
+
+    <p>Mouse over the words to change the cursor.</p>
+    <span style="cursor: auto;">auto</span><br>
+    <span style="cursor: crosshair;">crosshair</span><br>
+    <span style="cursor: default;">default</span><br>
+    <span style="cursor: e-resize;">e-resize</span><br>
+    <span style="cursor: help;">help</span><br>
+    <span style="cursor: move;">move</span><br>
+    <span style="cursor: n-resize;">n-resize</span><br>
+    <span style="cursor: ne-resize;">ne-resize</span><br>
+    <span style="cursor: nw-resize;">nw-resize</span><br>
+    <span style="cursor: pointer;">pointer</span><br>
+    <span style="cursor: progress;">progress</span><br>
+    <span style="cursor: s-resize;">s-resize</span><br>
+    <span style="cursor: se-resize;">se-resize</span><br>
+    <span style="cursor:sw-resize">sw-resize</span><br>
+    <span style="cursor: text;">text</span><br>
+    <span style="cursor: w-resize;">w-resize</span><br>
+    <span style="cursor: wait;">wait</span><br>
+
+    <p><strong>Tip:</strong> The cursor: hand is often used on links.</p>
+
+
+</body>
+</html>
